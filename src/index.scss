@@ -1,0 +1,258 @@
+.site-header {
+  margin-left: 255px;
+  padding-top: 35px;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+
+.site-header__auth {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.site-header__btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.site-header__btn + .site-header__btn {
+  margin-left: 28px;
+}
+
+.site-header__column {
+  display: inline-block;
+  margin: 0 32px;
+  width: 0;
+  height: 32px;
+  border: 1px solid #dfe0eb;
+}
+
+.site-header__user-name {
+  margin: 0 14px 0 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  background-color: #363740;
+}
+
+.sidebar__title {
+  display: block;
+  margin: 37px 32px 0 32px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #a4a6b3;
+  opacity: 0.7;
+  text-decoration: none;
+
+  &:hover {
+    color: #dde2ff;
+  }
+}
+
+.sidebar__pic {
+  margin-right: 12px;
+}
+
+.sidebar__list {
+  margin: 60px 0 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sidebar__item {
+  padding: 18px 0 18px 32px;
+  border-left: 3px solid transparent;
+
+  &:hover {
+    background-color: #3e4049;
+    border-color: #dde2ff;
+
+    .sidebar__link {
+      color: #dde2ff;
+    }
+  }
+}
+
+.sidebar__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #a4a6b3;
+  text-decoration: none;
+}
+
+.sidebar__link-img {
+  margin-right: 24px;
+}
+
+.main {
+  display: inline-block;
+  margin-left: 255px;
+}
+
+.solved__list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  margin-top: 60px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.solved__item {
+  padding: 24px 32px;
+  // max-width: 258px;
+  width: 258px;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+
+  &:hover {
+    border-color: #3751ff;
+    .solved__text,
+    .solved__number {
+      color: #3751ff;
+    }
+  }
+}
+
+.solved__text {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #9fa2b4;
+}
+
+.solved__number {
+  display: block;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #252733;
+}
+
+.trend {
+  padding: 30px 0 0;
+}
+
+.trend__inner {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+
+.trend__title {
+  margin: 32px 0 0 32px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.trend__time {
+  display: flex;
+  align-items: center;
+  margin: 32px;
+
+  time {
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9fa2b4;
+  }
+}
+
+.trend__today,
+.trend__yesteday {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+
+.trend__today::before,
+.trend__yesteday::before {
+  content: "";
+  width: 16px;
+  display: inline-block;
+  margin: 2px 8px 2px 0;
+  border: 2px solid #3751ff;
+  border-radius: 20px;
+}
+
+.trend__yesteday {
+  margin-left: 32px;
+}
+
+.trend__yesteday::before {
+  border-color: #dfe0eb;
+}
+
+.trend__graph {
+  margin: 0 30px;
+}
+
+.trend__list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-left: 1px solid #dfe0eb;
+}
+
+.trend__item {
+  padding: 32px 0 24px;
+  border-bottom: 1px solid #dfe0eb;
+}
+
+.trend__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9fa2b4;
+}
+
+.trend__number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
