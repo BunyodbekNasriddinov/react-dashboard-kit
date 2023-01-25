@@ -45,14 +45,16 @@ export const Overview = () => {
       </header>
       <nain className="main">
         <section className="solved">
-          <ul className="solved__list">
-            {SolvedList.map((item) => (
-              <li className="solved__item">
-                <p className="solved__text">{item.text}</p>
-                <span className="solved__number">{item.number}</span>
-              </li>
-            ))}
-          </ul>
+          <div className="container">
+            <ul className="solved__list">
+              {SolvedList.map((item) => (
+                <li className="solved__item">
+                  <p className="solved__text">{item.text}</p>
+                  <span className="solved__number">{item.number}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
         <section className="trend">
           <div className="container">
