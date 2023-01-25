@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tickets {
+    max-width: 550px;
+    width: 100%;
+}
+
+.link {
+    font-size: 14px;
+    color: #3751FF;
+    cursor: pointer;
+    position: relative;
+}
+
+.group{
+    font-size: 13px;
+}
+.left li:hover{
+    background: #505053;
+    border-left: 5px solid #DDE2FF;
+    padding-left: 45px;
+    transition: all 0.4s ease-in-out;
+}
+.left li:hover span{
+    color: #DDE2FF !important;
+}
+
+.link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    background: #3751FF;
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.left li{
+    cursor: pointer;
+}
