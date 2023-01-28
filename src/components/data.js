@@ -6,15 +6,15 @@ import agents from "../assets/images/agents.svg";
 import articles from "../assets/images/articles.svg";
 import settings from "../assets/images/settings.svg";
 import subscription from "../assets/images/subscription.svg";
-import profile1 from "../assets/images/profile1.png"
-import profile2 from "../assets/images/profile2.png"
-import profile3 from "../assets/images/profile3.png"
-import profile4 from "../assets/images/profile4.png"
-import profile5 from "../assets/images/profile5.png"
-import profile6 from "../assets/images/profile6.png"
-import profile7 from "../assets/images/profile7.png"
-import profile8 from "../assets/images/profile8.png"
-import toggle from "../assets/images/toggle.png"
+import profile1 from "../assets/images/profile1.png";
+import profile2 from "../assets/images/profile2.png";
+import profile3 from "../assets/images/profile3.png";
+import profile4 from "../assets/images/profile4.png";
+import profile5 from "../assets/images/profile5.png";
+import profile6 from "../assets/images/profile6.png";
+import profile7 from "../assets/images/profile7.png";
+import profile8 from "../assets/images/profile8.png";
+import toggle from "../assets/images/toggle.png";
 
 export const LinksData = [
   {
@@ -93,7 +93,7 @@ export const StatsList = [
   },
 ];
 
-export const Tikets  = [
+export const Tikets = [
   {
     img: profile1,
     ticketName: "Contact Email not Linked",
@@ -104,7 +104,7 @@ export const Tikets  = [
     timeLabel: "6:30 PM",
     priority: "HIGH",
     priorityStyle: "high priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile2,
@@ -116,7 +116,7 @@ export const Tikets  = [
     timeLabel: "8:00 AM",
     priority: "LOW",
     priorityStyle: "low priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile3,
@@ -128,7 +128,7 @@ export const Tikets  = [
     timeLabel: "7:30 PM",
     priority: "HIGH",
     priorityStyle: "high priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile4,
@@ -140,7 +140,7 @@ export const Tikets  = [
     timeLabel: "5:00 PM",
     priority: "NORMAL",
     priorityStyle: "normal priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile5,
@@ -152,7 +152,7 @@ export const Tikets  = [
     timeLabel: "4:00 PM",
     priority: "HIGH",
     priorityStyle: "high priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile6,
@@ -164,7 +164,7 @@ export const Tikets  = [
     timeLabel: "2:00 PM",
     priority: "NORMAL",
     priorityStyle: "normal priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile7,
@@ -176,7 +176,7 @@ export const Tikets  = [
     timeLabel: "11:30 AM",
     priority: "LOW",
     priorityStyle: "low priorityAll",
-    more:toggle,
+    more: toggle,
   },
   {
     img: profile8,
@@ -188,7 +188,6 @@ export const Tikets  = [
     timeLabel: "1:00 PM",
     priority: "NORMAL",
     priorityStyle: "normal priorityAll",
-    more:toggle,
+    more: toggle,
   },
- 
 ];

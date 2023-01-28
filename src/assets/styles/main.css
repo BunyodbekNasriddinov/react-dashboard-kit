@@ -21,6 +21,7 @@ body {
 
 main {
   flex-grow: 1;
+  margin-left: 255px;
 }
 
 img {

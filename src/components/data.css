@@ -1,16 +1,18 @@
-.priorityAll{
-padding: 5px 12px;
-cursor: pointer;
-border-radius: 100px;
-border: none;
+.priorityAll {
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
 }
 
-.high{
-    background: #F12B2C;
+.high {
+    background-color: #F12B2C;
 }
-.low{
-    background: #FEC400;
+
+.low {
+    background-color: #FEC400;
 }
-.normal{
-    background: #29CC97;
+
+.normal {
+    background-color: #29CC97;
 }
