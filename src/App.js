@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Overview />} />
+        <Route path="/overview" element={<Overview />} />
         <Route path="/tickets" element={<Tickets />} />
       </Routes>
     </>

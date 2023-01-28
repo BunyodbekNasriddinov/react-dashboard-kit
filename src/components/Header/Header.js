@@ -1,11 +1,8 @@
-import { useParams } from "react-router-dom";
 import SearchIcon from "../../assets/images/search-icon.svg";
 import NewsIcon from "../../assets/images/news.svg";
 import Avatar from "../../assets/images/avatar.png";
 
 export const Header = () => {
-  // const title = useParams();
-  // console.log(title);
   return (
     <header className="site-header">
       <div className="container">

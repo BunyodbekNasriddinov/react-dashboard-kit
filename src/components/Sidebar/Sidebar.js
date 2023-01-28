@@ -19,29 +19,19 @@ export const Sidebar = () => {
         <ul className="sidebar__list">
           {LinksData.map((link, idx) => (
             <li className="sidebar__item" key={idx}>
-              {link.text === "Tickets" ? (
-                <Link className="sidebar__link" to="/tickets">
-                  <img
-                    className="sidebar__link-img"
-                    src={link.img}
-                    width="16"
-                    height="16"
-                    alt={link.text}
-                  />
-                  {link.text}
-                </Link>
-              ) : (
-                <Link className="sidebar__link" to="/">
-                  <img
-                    className="sidebar__link-img"
-                    src={link.img}
-                    width="16"
-                    height="16"
-                    alt={link.text}
-                  />
-                  {link.text}
-                </Link>
-              )}
+              <Link
+                className="sidebar__link"
+                to={`/${link.text.toLocaleLowerCase()}`}
+              >
+                <img
+                  className="sidebar__link-img"
+                  src={link.img}
+                  width="16"
+                  height="16"
+                  alt={link.text}
+                />
+                {link.text}
+              </Link>
             </li>
           ))}
         </ul>
