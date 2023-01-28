@@ -79,9 +79,6 @@
 }
 
 .sidebar__item {
-  padding: 18px 0 18px 32px;
-  border-left: 3px solid transparent;
-
   &:hover {
     background-color: #3e4049;
     border-color: #dde2ff;
@@ -93,12 +90,26 @@
 }
 
 .sidebar__link {
+  display: block;
+  padding: 18px 0 18px 32px;
+  border-left: 3px solid transparent;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #a4a6b3;
   text-decoration: none;
+
+  &:hover {
+    background-color: #3e4049b1;
+    border-color: #dde2ff;
+  }
+}
+
+.active-link {
+  background-color: #3e4049;
+  border-color: #dde2ff;
+  color: #dde2ff;
 }
 
 .sidebar__link-img {

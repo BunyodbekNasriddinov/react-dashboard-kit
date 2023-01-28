@@ -1,6 +1,6 @@
 import { LinksData } from "../data";
 import logo from "../../assets/images/logo.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Sidebar = () => {
   return (
@@ -19,8 +19,10 @@ export const Sidebar = () => {
         <ul className="sidebar__list">
           {LinksData.map((link, idx) => (
             <li className="sidebar__item" key={idx}>
-              <Link
-                className="sidebar__link"
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "active-link sidebar__link" : "sidebar__link"
+                }
                 to={`/${link.text.toLocaleLowerCase()}`}
               >
                 <img
@@ -31,7 +33,7 @@ export const Sidebar = () => {
                   alt={link.text}
                 />
                 {link.text}
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>
